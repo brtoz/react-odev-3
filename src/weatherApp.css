@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fdfbfb;
+}
+
+.page {
+    width:75%;
+    height: 100%;
+    margin:36px auto;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: #f7f7f7;
+}
+
+
+.select-div {
+    background-color: #f7f7f7;
+}
+
+.select-div #citySelect {
+    padding: 12px;
+    width: 12%;
+}
+
+
+.weather-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+   
+}
+
+.daily-weather {
+    text-align: center;
+    margin: 24px;
+    padding: 12px;
+}
+
+.day {
+    color: gray;
+    font-size: 32px;
+}
+
+.icon {
+    width: 150px;
+    margin-bottom: 8px;
+}
+
+.temp {
+    color: rgb(46, 46, 46);
+    margin-right: 8px;
+    font-size: 32px;
+    
+}
+
+.feel {
+    color: gray;
+    font-size: 32px;
+}
+
+.weatherCondition  {
+    font-size: 25px;
+    color: grey;
+}
+
+.today {
+    border: 1px solid rgb(211, 211, 211);
+    background-color: #f1f1f1;
+}
